@@ -3,7 +3,7 @@ let hour = document.getElementById("hour")
 let min = document.getElementById("min")
 let sec = document.getElementById("sec")
 
-let new_date = new Date("Dec 9,2023 00:00:00").getTime();
+let new_date = new Date("Dec 9,2025 00:00:00").getTime();
 
 setInterval(() => {
     let current_date = new Date().getTime();
